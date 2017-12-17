@@ -561,3 +561,4 @@ db_name = ENV['DB'] || 'sqlite'
 ActiveRecord::Base.establish_connection(db_name)
 ActiveRecord::Base.default_timezone = :utc
 ```
+
